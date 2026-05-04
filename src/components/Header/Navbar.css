@@ -1,0 +1,35 @@
+/* Base style for the NavLink */
+.nav-item {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+  color: #6b7280; /* Default gray color for inactive links */
+}
+
+/* Style when the NavLink is active */
+.nav-item.active {
+  border-color: #632ee3; /* Bottom border color */
+}
+
+/* The gradient text effect only when active */
+.nav-item.active .gradient-text {
+  background: linear-gradient(to right, #9f62f2, #632ee3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.nav-item:hover {
+  border-color: #632ee3; /* Bottom border color */
+  background-color: transparent;
+}
+
+/* The gradient text effect only when active */
+.nav-item:hover .gradient-text {
+  background: linear-gradient(to right, #9f62f2, #632ee3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
