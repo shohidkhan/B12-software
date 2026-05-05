@@ -26,7 +26,7 @@ const Apps = ({ apps }) => {
         {apps ? (
           <div>
             <div className=" px-15 grid grid-cols-4 gap-6">
-              {apps.map((app) => (
+              {apps.slice(0, 8).map((app) => (
                 <SingleApp key={app.id} app={app} />
               ))}
             </div>
@@ -63,6 +63,11 @@ const Apps = ({ apps }) => {
               </div>
             </div>
             <div className=" px-15 grid grid-cols-4 gap-6">
+              {search.length === 0 && (
+                <div className="col-span-4 text-center">
+                  <h1 className="text-2xl font-bold">No Apps Found</h1>
+                </div>
+              )}
               {search.map((app) => (
                 <SingleApp key={app.id} app={app} />
               ))}
