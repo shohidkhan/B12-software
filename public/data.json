@@ -1,0 +1,434 @@
+[
+  {
+    "image": "https://i.ibb.co.com/RGGdVjq7/Pixel-Pulse.jpg",
+    "title": "Pixel Pulse",
+    "companyName": "Neon Studio",
+    "id": 1,
+    "description": "A high-octane retro rhythm game with neon aesthetics.",
+    "size": 124,
+    "reviews": 1250,
+    "ratingAvg": 4.8,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Cp5jPZdm/Zen-Garden-Builder.jpg",
+    "title": "Zen Garden Builder",
+    "companyName": "Bloom Digital",
+    "id": 2,
+    "description": "Create and maintain your own virtual sanctuary.",
+    "size": 85,
+    "reviews": 840,
+    "ratingAvg": 4.2,
+    "downloads": 12000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 440 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/dsG8jxQ4/Crypto-Track-Pro.jpg",
+    "title": "CryptoTrack Pro",
+    "companyName": "Fintech Solutions",
+    "id": 3,
+    "description": "Real-time cryptocurrency tracking and portfolio management.",
+    "size": 45,
+    "reviews": 3200,
+    "ratingAvg": 4.5,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 650 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wrPpMGwj/Gourmet-Apps.jpg",
+    "title": "Quick Chef",
+    "companyName": "Gourmet Apps",
+    "id": 4,
+    "description": "Learn to cook gourmet meals in under 20 minutes.",
+    "size": 210,
+    "reviews": 560,
+    "ratingAvg": 3.9,
+    "downloads": 8500,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 160 },
+      { "name": "5 star", "count": 150 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/KjcQgRQX/Star-Navigator.jpg",
+    "title": "Star Navigator",
+    "companyName": "AstroTech",
+    "id": 5,
+    "description": "Augmented reality stargazing and constellation finder.",
+    "size": 180,
+    "reviews": 4100,
+    "ratingAvg": 4.9,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 3600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Ps0h6JJK/Focus-Flow.jpg",
+    "title": "Focus Flow",
+    "companyName": "Mindful Labs",
+    "id": 6,
+    "description": "Minimalist Pomodoro timer for deep work sessions.",
+    "size": 15,
+    "reviews": 900,
+    "ratingAvg": 4.6,
+    "downloads": 35000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Fk9dqGvv/Fit-Quest-RPG.jpg",
+    "title": "FitQuest RPG",
+    "companyName": "Active Gaming",
+    "id": 7,
+    "description": "Turn your daily steps into experience points in a fantasy world.",
+    "size": 320,
+    "reviews": 11200,
+    "ratingAvg": 4.7,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 8000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/0p8V1dZk/Secure-Vault.jpg",
+    "title": "Secure Vault",
+    "companyName": "Cyber Shield",
+    "id": 8,
+    "description": "Military-grade encryption for your photos and documents.",
+    "size": 60,
+    "reviews": 2100,
+    "ratingAvg": 4.4,
+    "downloads": 75000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 1300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/7dCm9x5Y/Lingo-Leap.jpg",
+    "title": "Lingo Leap",
+    "companyName": "Polyglot Inc.",
+    "id": 9,
+    "description": "Speak a new language fluently using AI conversation partners.",
+    "size": 150,
+    "reviews": 6700,
+    "ratingAvg": 4.8,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 5500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qLc7NVVK/Urban-Ride.jpg",
+    "title": "Urban Ride",
+    "companyName": "City Motion",
+    "id": 10,
+    "description": "Simplified public transit schedules and bike-share map.",
+    "size": 38,
+    "reviews": 1800,
+    "ratingAvg": 4.1,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 320 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9kd7pXrW/fi-5977575.png",
+    "title": "Habit Hero",
+    "companyName": "Routine Labs",
+    "id": 11,
+    "description": "Track your goals and build lasting positive habits.",
+    "size": 52,
+    "reviews": 2900,
+    "ratingAvg": 4.3,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 750 },
+      { "name": "5 star", "count": 1600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1Yh8ww4D/Group.png",
+    "title": "SynthWave Maker",
+    "companyName": "AudioArt",
+    "id": 12,
+    "description": "Professional 80s style synthesizer and beat maker.",
+    "size": 240,
+    "reviews": 1450,
+    "ratingAvg": 4.6,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ZRcGGKRn/Code-Companion.png",
+    "title": "Code Companion",
+    "companyName": "DevTools Ltd",
+    "id": 13,
+    "description": "Syntax highlighting and snippets for 50+ languages.",
+    "size": 75,
+    "reviews": 5100,
+    "ratingAvg": 4.7,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 380 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 3500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/d4M9n2jj/Night-Sky-Sleep.jpg",
+    "title": "Night Sky Sleep",
+    "companyName": "Slumber Co",
+    "id": 14,
+    "description": "Ambient sounds and bedtime stories for better rest.",
+    "size": 110,
+    "reviews": 8200,
+    "ratingAvg": 4.8,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 480 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/fzK6XKLL/Pixel-Artist-Pro.jpg",
+    "title": "Pixel Artist Pro",
+    "companyName": "Sprite Lab",
+    "id": 15,
+    "description": "Create stunning pixel art for games and social media.",
+    "size": 42,
+    "reviews": 950,
+    "ratingAvg": 4.4,
+    "downloads": 25000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/93vP4D4p/Eco-Foot-print.png",
+    "title": "Eco Foot print",
+    "companyName": "Green Earth",
+    "id": 16,
+    "description": "Track and reduce your carbon footprint with daily tips.",
+    "size": 30,
+    "reviews": 600,
+    "ratingAvg": 4.0,
+    "downloads": 15000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/NGM6cWH/Voyage-Planner.jpg",
+    "title": "Voyage Planner",
+    "companyName": "Globe Trotter",
+    "id": 17,
+    "description": "All-in-one itinerary builder and flight tracker.",
+    "size": 135,
+    "reviews": 4300,
+    "ratingAvg": 4.5,
+    "downloads": 180000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6Rtg2LwQ/Math-Wizard.jpg",
+    "title": "Math Wizard",
+    "companyName": "EduPlay",
+    "id": 18,
+    "description": "Interactive math puzzles for students of all ages.",
+    "size": 95,
+    "reviews": 2700,
+    "ratingAvg": 4.2,
+    "downloads": 80000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/JjQHxFZc/Drone-Cam-Connect.jpg",
+    "title": "DroneCam Connect",
+    "companyName": "Sky View",
+    "id": 19,
+    "description": "Remote control and HD streaming for hobbyist drones.",
+    "size": 165,
+    "reviews": 1200,
+    "ratingAvg": 3.8,
+    "downloads": 45000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/3m5B5HqS/Recipe-Scan.jpg",
+    "title": "Recipe Scan",
+    "companyName": "Kitchen AI",
+    "id": 20,
+    "description": "Take a photo of ingredients and get instant recipe ideas.",
+    "size": 55,
+    "reviews": 3400,
+    "ratingAvg": 4.6,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4RjPzjp8/Workout-Hero.png",
+    "title": "Workout Hero",
+    "companyName": "Iron Body",
+    "id": 21,
+    "description": "Custom HIIT and strength training plans.",
+    "size": 190,
+    "reviews": 9800,
+    "ratingAvg": 4.7,
+    "downloads": 450000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/q319nM5W/Budget-Boss.jpg",
+    "title": "Budget Boss",
+    "companyName": "Penny Wise",
+    "id": 22,
+    "description": "Automated expense tracking and savings goals.",
+    "size": 48,
+    "reviews": 5600,
+    "ratingAvg": 4.4,
+    "downloads": 130000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 3000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1GJX7Z7z/Manga-Reader.jpg",
+    "title": "Manga Reader",
+    "companyName": "Comic Cloud",
+    "id": 23,
+    "description": "Access thousands of digital manga and comics.",
+    "size": 72,
+    "reviews": 15400,
+    "ratingAvg": 4.8,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9kMBbxbN/Note-Sphere.jpg",
+    "title": "Note Sphere",
+    "companyName": "Clarity Apps",
+    "id": 24,
+    "description": "Bi-directional linking and graph view for your notes.",
+    "size": 65,
+    "reviews": 3100,
+    "ratingAvg": 4.5,
+    "downloads": 85000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  }
+]
