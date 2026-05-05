@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SingleApp from "../SingleApp/SingleApp";
-import { useLoaderData } from "react-router";
+import { Link, useLoaderData } from "react-router";
 import { Search } from "lucide-react";
 
 const Apps = ({ apps }) => {
@@ -31,9 +31,12 @@ const Apps = ({ apps }) => {
               ))}
             </div>
             <div className="mt-10 text-center">
-              <a className="btn border-none  bg-gradient-to-r from-[#9F62F2] to-[#632EE3] text-white hover:opacity-90 hover:bg-gradient-to-l hover:to-[#9F62F2] hover:from-[#632EE3] transition-opacity">
+              <Link
+                to="/apps"
+                className="btn border-none  bg-gradient-to-r from-[#9F62F2] to-[#632EE3] text-white hover:opacity-90 hover:bg-gradient-to-l hover:to-[#9F62F2] hover:from-[#632EE3] transition-opacity"
+              >
                 Show All
-              </a>
+              </Link>
             </div>
           </div>
         ) : (
