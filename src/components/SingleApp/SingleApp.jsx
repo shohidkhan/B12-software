@@ -5,7 +5,9 @@ import { FaStar } from "react-icons/fa";
 import { Link } from "react-router";
 
 const SingleApp = ({ app }) => {
-  const { id, title, image, ratingAvg, downloads } = app;
+  const { id, title, image, ratingAvg, downloads, rating } = app;
+
+  console.log(rating);
   return (
     <Link to={`/apps/${id}`}>
       <div className="p-5 bg-white rounded-md">
