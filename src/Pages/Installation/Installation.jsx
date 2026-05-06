@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { useLoaderData } from "react-router";
 import { getInstalledApps } from "../../Utility/Helper";
 import SingleInstalledApp from "../../components/SingleInstalledApp/SingleInstalledApp";
+import { Loader } from "lucide-react";
 
 const Installation = () => {
   const allApps = useLoaderData();
@@ -51,15 +52,17 @@ const Installation = () => {
         </div>
       </div>
 
-      {installedAllApps.map((app) => (
-        <SingleInstalledApp
-          app={app}
-          key={app.id}
-          setInstalledAllApps={setInstalledAllApps}
-          installedApps={installedApps}
-          allApps={allApps}
-        />
-      ))}
+      <Suspense fallback={<Loader />}>
+        {installedAllApps.map((app) => (
+          <SingleInstalledApp
+            app={app}
+            key={app.id}
+            setInstalledAllApps={setInstalledAllApps}
+            installedApps={installedApps}
+            allApps={allApps}
+          />
+        ))}
+      </Suspense>
     </div>
   );
 };

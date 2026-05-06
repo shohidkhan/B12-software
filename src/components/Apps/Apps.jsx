@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { Suspense, useState } from "react";
 import SingleApp from "../SingleApp/SingleApp";
 import { Link, useLoaderData } from "react-router";
 import { Search } from "lucide-react";
+import Loader from "../Loader/Loader";
 
 const Apps = ({ apps }) => {
   const dataApps = useLoaderData();
@@ -68,9 +69,11 @@ const Apps = ({ apps }) => {
                   <h1 className="text-2xl font-bold">No Apps Found</h1>
                 </div>
               )}
-              {search.map((app) => (
-                <SingleApp key={app.id} app={app} />
-              ))}
+              <Suspense fallback={<Loader />}>
+                {search.map((app) => (
+                  <SingleApp key={app.id} app={app} />
+                ))}
+              </Suspense>
             </div>
           </div>
         )}
