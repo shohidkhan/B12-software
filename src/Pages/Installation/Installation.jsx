@@ -8,7 +8,11 @@ const Installation = () => {
   const allApps = useLoaderData();
   const [installedAllApps, setInstalledAllApps] = useState(allApps);
 
+  // 1. Add an isSorting state
+  const [isSorting, setIsSorting] = useState(false);
+
   const installedApps = getInstalledApps();
+
   useEffect(() => {
     const filteredApps = allApps.filter((app) =>
       installedApps.includes(app.id),
@@ -18,13 +22,23 @@ const Installation = () => {
 
   const HandleSort = (e) => {
     const sortType = e.target.value;
-    if (!sortType) return; // Exit if user selects the default option
+    if (!sortType) return;
 
-    const sortedApps = [...installedAllApps].sort((a, b) => {
-      return sortType === "lth" ? a.size - b.size : b.size - a.size;
-    });
+    // 2. Start Loading
+    setIsSorting(true);
 
-    setInstalledAllApps(sortedApps);
+    // Use setTimeout to allow the browser to render the loader
+    // before the main thread gets busy with the sort
+    setTimeout(() => {
+      const sortedApps = [...installedAllApps].sort((a, b) => {
+        return sortType === "lth" ? a.size - b.size : b.size - a.size;
+      });
+
+      setInstalledAllApps(sortedApps);
+
+      // 3. Stop Loading
+      setIsSorting(false);
+    }, 500); // 500ms delay to make the animation feel smooth
   };
 
   return (
@@ -52,17 +66,25 @@ const Installation = () => {
         </div>
       </div>
 
-      <Suspense fallback={<Loader />}>
-        {installedAllApps.map((app) => (
-          <SingleInstalledApp
-            app={app}
-            key={app.id}
-            setInstalledAllApps={setInstalledAllApps}
-            installedApps={installedApps}
-            allApps={allApps}
-          />
-        ))}
-      </Suspense>
+      {/* 4. Conditional Rendering for the Loader */}
+      {isSorting ? (
+        <div className="flex flex-col items-center justify-center py-20">
+          <Loader className="animate-spin text-blue-600" size={48} />
+          <p className="mt-4 text-gray-600">Sorting apps...</p>
+        </div>
+      ) : (
+        <div className="grid grid-cols-1 gap-4">
+          {installedAllApps.map((app) => (
+            <SingleInstalledApp
+              app={app}
+              key={app.id}
+              setInstalledAllApps={setInstalledAllApps}
+              installedApps={installedApps}
+              allApps={allApps}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 };
